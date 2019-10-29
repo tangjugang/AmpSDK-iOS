@@ -1,0 +1,22 @@
+{
+  "name": "AmpSDK-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of AmpSDK-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tangjugang/AmpSDK-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tangjugang": "etre.tang@aihuishou.com"
+  },
+  "source": {
+    "git": "https://github.com/tangjugang/AmpSDK-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AmpSDK-iOS/Classes/**/*"
+}

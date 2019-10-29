@@ -1,0 +1,6 @@
+framework module AmpSDK_iOS {
+  umbrella header "AmpSDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
