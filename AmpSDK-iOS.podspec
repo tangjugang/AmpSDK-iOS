@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/tangjugang/AmpSDK-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tangjugang' => 'etre.tang@aihuishou.com' }
+  s.author           = { 'Etre' => '437418200@qq.com' }
   s.source           = { :git => 'https://github.com/tangjugang/AmpSDK-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

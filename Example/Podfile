@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'AmpSDK-iOS_Example' do
-  pod 'AmpSDK-iOS', :path => '../'
+#  pod 'AmpSDK-iOS', :path => '../'
+pod 'AmpSDK-iOS'
   
   pod 'RNCAsyncStorage', :path => '~/Workspace/AHSPods/ReactNative/node_modules/@react-native-community/async-storage'
   pod 'RNSVG', :path => '~/Workspace/AHSPods/ReactNative/node_modules/react-native-svg'

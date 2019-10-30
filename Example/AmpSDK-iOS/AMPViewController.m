@@ -18,7 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [NSURL URLWithString:@"https://baidu.com"];
 }
 
 - (IBAction)ampClicked:(id)sender {

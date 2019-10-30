@@ -1,6 +1,5 @@
 # AmpSDK-iOS
 
-[![CI Status](https://img.shields.io/travis/tangjugang/AmpSDK-iOS.svg?style=flat)](https://travis-ci.org/tangjugang/AmpSDK-iOS)
 [![Version](https://img.shields.io/cocoapods/v/AmpSDK-iOS.svg?style=flat)](https://cocoapods.org/pods/AmpSDK-iOS)
 [![License](https://img.shields.io/cocoapods/l/AmpSDK-iOS.svg?style=flat)](https://cocoapods.org/pods/AmpSDK-iOS)
 [![Platform](https://img.shields.io/cocoapods/p/AmpSDK-iOS.svg?style=flat)](https://cocoapods.org/pods/AmpSDK-iOS)
@@ -10,6 +9,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 9.0+
 
 ## Installation
 
@@ -22,7 +23,7 @@ pod 'AmpSDK-iOS'
 
 ## Author
 
-tangjugang, etre.tang@aihuishou.com
+Etre
 
 ## License
 
