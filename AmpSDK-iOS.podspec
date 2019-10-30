@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AmpSDK-iOS'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'AmpSDK-iOS is a small program based on the iOS.'
 
 # This description is used to generate tags and improve search results.
