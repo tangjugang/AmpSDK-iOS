@@ -1,9 +1,36 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'AmpSDK-iOS_Example' do
   pod 'AmpSDK-iOS', :path => '../'
+  
+  pod 'RNCAsyncStorage', :path => '~/Workspace/AHSPods/ReactNative/node_modules/@react-native-community/async-storage'
+  pod 'RNSVG', :path => '~/Workspace/AHSPods/ReactNative/node_modules/react-native-svg'
+  pod 'BVLinearGradient', :path => '~/Workspace/AHSPods/ReactNative/node_modules/react-native-linear-gradient'
+  pod 'React', :path => '~/Workspace/AHSPods/ReactNative/node_modules/react-native', :subspecs => [
+  
+  'Core',
+  'CxxBridge',
+  'DevSupport',
+  'RCTText',
+  'RCTNetwork',
+  'RCTWebSocket',
+  'RCTAnimation',
+  'RCTPushNotification',
+  'RCTActionSheet',
+  'RCTGeolocation',
+  'RCTImage',
+  'RCTSettings',
+  'RCTVibration',
+  'RCTLinkingIOS',
+  
+  ]
+  
+  pod 'yoga', :path => '~/Workspace/AHSPods/ReactNative/node_modules/react-native/ReactCommon/yoga'
+  pod 'DoubleConversion', :podspec => '~/Workspace/AHSPods/ReactNative/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '~/Workspace/AHSPods/ReactNative/node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '~/Workspace/AHSPods/ReactNative/node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   target 'AmpSDK-iOS_Tests' do
     inherit! :search_paths

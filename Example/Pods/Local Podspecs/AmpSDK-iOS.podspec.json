@@ -1,7 +1,7 @@
 {
   "name": "AmpSDK-iOS",
   "version": "0.1.0",
-  "summary": "A short description of AmpSDK-iOS.",
+  "summary": "AmpSDK-iOS is a small program based on the iOS.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tangjugang/AmpSDK-iOS",
   "license": {
@@ -15,8 +15,27 @@
     "git": "https://github.com/tangjugang/AmpSDK-iOS.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "8.0"
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64 armv7 armv7s"
   },
-  "source_files": "AmpSDK-iOS/Classes/**/*"
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "vendored_frameworks": "AmpSDK-iOS/AmpSDK_iOS.framework"
+  },
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ],
+    "SSZipArchive": [
+      "2.2.2"
+    ],
+    "FMDB": [
+      "2.7.5"
+    ],
+    "YYModel": [
+      "1.0.4"
+    ]
+  }
 }

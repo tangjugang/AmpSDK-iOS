@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AmpSDK-iOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AmpSDK-iOS.'
+  s.summary          = 'AmpSDK-iOS is a small program based on the iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,15 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/tangjugang/AmpSDK-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'AmpSDK-iOS/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AmpSDK-iOS' => ['AmpSDK-iOS/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '9.0'
+  s.ios.vendored_framework   = 'AmpSDK-iOS/AmpSDK_iOS.framework'
+  s.dependency 'MBProgressHUD', '~> 1.1.0'
+  s.dependency 'SSZipArchive', '2.2.2'
+  s.dependency 'FMDB', '2.7.5'
+  s.dependency 'YYModel', '1.0.4'
 end

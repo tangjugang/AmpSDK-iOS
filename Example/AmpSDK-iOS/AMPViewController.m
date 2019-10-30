@@ -7,6 +7,7 @@
 //
 
 #import "AMPViewController.h"
+#import "AMPEnterController.h"
 
 @interface AMPViewController ()
 
@@ -17,7 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [NSURL URLWithString:@"https://baidu.com"];
+}
+
+- (IBAction)ampClicked:(id)sender {
+    AMPEnterController *vc = [[AMPEnterController alloc] initWithNibName:NSStringFromClass([AMPEnterController class]) bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

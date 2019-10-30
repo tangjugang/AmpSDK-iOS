@@ -7,12 +7,15 @@
 //
 
 #import "AMPAppDelegate.h"
+#import <AmpSDK_iOS/AMPApi.h>
+#import "AMPApiManager.h"
 
 @implementation AMPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [AMPApi registerAmpDelegate:[AMPApiManager sharedManager]];
+    [AMPApi openLog:YES];
     return YES;
 }
 
