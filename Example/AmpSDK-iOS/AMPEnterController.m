@@ -36,6 +36,7 @@
         return;
     }
     AMPParams *api = [AMPParams new];
+    api.businessSdkVersion = @"0.3.0";
     api.hideNavigation = NO;
     api.initialProperties = nil;
     api.initialUrl = _urlLabel.text;

@@ -1,5 +1,5 @@
 PODS:
-  - AmpSDK-iOS (0.1.0):
+  - AmpSDK-iOS (0.3.0):
     - FMDB (= 2.7.5)
     - MBProgressHUD (~> 1.1.0)
     - SSZipArchive (= 2.2.2)
@@ -83,7 +83,7 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - AmpSDK-iOS
+  - AmpSDK-iOS (from `../`)
   - BVLinearGradient (from `~/Workspace/AHSPods/ReactNative/node_modules/react-native-linear-gradient`)
   - DoubleConversion (from `~/Workspace/AHSPods/ReactNative/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `~/Workspace/AHSPods/ReactNative/node_modules/react-native/third-party-podspecs/Folly.podspec`)
@@ -108,7 +108,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - AmpSDK-iOS
     - boost-for-react-native
     - FMDB
     - MBProgressHUD
@@ -116,6 +115,8 @@ SPEC REPOS:
     - YYModel
 
 EXTERNAL SOURCES:
+  AmpSDK-iOS:
+    :path: "../"
   BVLinearGradient:
     :path: "~/Workspace/AHSPods/ReactNative/node_modules/react-native-linear-gradient"
   DoubleConversion:
@@ -134,7 +135,7 @@ EXTERNAL SOURCES:
     :path: "~/Workspace/AHSPods/ReactNative/node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AmpSDK-iOS: c595ae91cbf74a8bc00d6a2fb27df88c81b34d7d
+  AmpSDK-iOS: 12484c6d214cfbc95f7466eb20087268698f744f
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   BVLinearGradient: 0d985ec461359c82bc254f26d11008bdae50d17a
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
@@ -149,6 +150,6 @@ SPEC CHECKSUMS:
   yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c2ea3163c67ecf1dc2d7a985a1907b706c86a403
+PODFILE CHECKSUM: 7a55f3d6b10860aa8841c2fddf7f31d5750aaca9
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3
