@@ -1,6 +1,6 @@
 //
 //  AMPRNViewController.h
-//  AHSapp
+//  AmpSDK-iOS-Framework
 //
 //  Created by jugang.tang on 2019/8/26.
 //  Copyright © 2019 ShangHai Yue Yi Network Information Technology Co., Ltd. All rights reserved.

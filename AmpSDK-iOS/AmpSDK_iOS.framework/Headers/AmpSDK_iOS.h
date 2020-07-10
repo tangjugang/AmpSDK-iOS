@@ -1,6 +1,6 @@
 //
 //  AmpSDK_iOS.h
-//  AmpSDK-iOS
+//  AmpSDK-iOS-Framework
 //
 //  Created by jugang.tang on 2019/10/29.
 //  Copyright © 2019 jugang.tang. All rights reserved.
@@ -18,4 +18,4 @@ FOUNDATION_EXPORT const unsigned char AmpSDK_iOSVersionString[];
 #import <AmpSDK_iOS/AMPApi.h>
 #import <AmpSDK_iOS/AMPParams.h>
 #import <AmpSDK_iOS/AMPRNViewController.h>
-
+#import <AmpSDK_iOS/AMPWxPay.h>
