@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AmpSDK-iOS'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'AHS Mini Program based on the RN'
 
 # This description is used to generate tags and improve search results.

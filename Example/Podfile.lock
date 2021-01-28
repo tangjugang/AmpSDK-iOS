@@ -1,5 +1,5 @@
 PODS:
-  - AmpSDK-iOS (0.3.0):
+  - AmpSDK-iOS (0.4.0):
     - FMDB (= 2.7.5)
     - MBProgressHUD (~> 1.1.0)
     - SSZipArchive (= 2.2.2)
@@ -135,7 +135,7 @@ EXTERNAL SOURCES:
     :path: "~/Workspace/AHSPods/ReactNative/node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AmpSDK-iOS: 12484c6d214cfbc95f7466eb20087268698f744f
+  AmpSDK-iOS: f5e33eefb0e67df971affffc07d7d00821143119
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   BVLinearGradient: 0d985ec461359c82bc254f26d11008bdae50d17a
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
